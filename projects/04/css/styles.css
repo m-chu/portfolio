@@ -1,0 +1,129 @@
+body {
+  background-image: url('../img/pizza-pattern.svg');
+  background-color: #fff8eb;
+  min-width: 750px;
+}
+
+h1 {
+  color: #ff0500;
+  font-family: 'Righteous', cursive;
+  font-size: 12em;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 5px 5px 1px #fff, -5px -5px 1px #5cb85c;
+}
+
+h1 .title-accent {
+  background-color: #fff;
+  border: 2px solid #ff0500;
+  border-radius: 50px;
+  font-family: 'Lobster', cursive;
+  font-size: 0.3em;
+  padding: 5px 20px;
+  text-shadow: -2px -2px 1px #5cb85c;
+}
+
+h2, h3 {
+  font-family: 'Lobster', cursive;
+}
+
+h3.upsize {
+  font-size: 4em;
+}
+
+ul {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  margin: 5px 10px;
+}
+
+.display-none {
+  display: none;
+}
+
+#floating-pizza {
+  animation: floaty-pizza 2s infinite;
+  float: right;
+  position: relative;
+  top: 2px;
+  right: -5px;
+  width: 70px;
+}
+
+#order {
+  background-color: #0f8238e6;
+}
+
+#order-input, #order-details, #confirm-order {
+  min-height: 590px;
+}
+
+#order-input, #confirm-order {
+  background-color: #fafdffd9;
+  border-radius: 5px;
+  padding: 10px 25px 25px;
+}
+
+#order-details {
+  color: #fff;
+  padding-top: 130px;
+}
+
+#order-total {
+  color: #ffde31;
+}
+
+#order-cart ul {
+  margin-bottom: 10px;
+  min-height: 175px;
+}
+
+#order-cart li {
+  background-color: #3e3e3e;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin: 1%;
+  width: 48%;
+}
+
+#thank-you h2 {
+  margin-top: 0px;
+}
+
+.pizza {
+  background-color: #0f8238e6;
+  background-image: url('../img/pizza.svg');
+  background-position: 0 -5px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  border-radius: 3px;
+  color: #fff;
+  float: left;
+  margin: 1.15%;
+  overflow: auto;
+  padding: 0px 15px 20px;
+  width: 31%;
+}
+
+/* ANIMATIONS */
+@keyframes floaty-pizza {
+  50% {top: 10px;}
+}
+
+/* BOOTSTRAP CUSTOMIZATIONS */
+.well {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 20px 35px;
+}

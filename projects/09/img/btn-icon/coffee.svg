@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/coffee</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/coffee" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#FFC400" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <g id="coffee" transform="translate(17.000000, 10.000000)">
+            <path d="M0,38 L32,38 C32,39.0114943 30.6666667,39.6091954 28,39.7931034 C24,40.0689655 8,40.0689655 4,39.7931034 C1.33333333,39.6091954 -7.57912251e-14,39.0114943 0,38 Z" id="saucer" fill="#FFFFFF"></path>
+            <path d="M26,20 C33,20 33,20 33,26 C33,28 30.3333333,29.6666667 25,31 C25,31 25,30.3333333 25,29 C28,28 31,27 31,25 C31,22 31,22 26,22 C26,21 26,22.4436035 26,20 Z" id="handle" fill="#FFFFFF"></path>
+            <path d="M2,20 L28,20 C28,27.5862069 26.9166667,32.0689655 24.75,33.4482759 C21.5,35.5172414 8.5,35.5172414 5.25,33.4482759 C3.08333333,32.0689655 2,27.5862069 2,20 Z" id="cup" fill="#FFFFFF"></path>
+            <path d="M22.1327239,5 C17.9895563,8.2 26.9895563,11.4 21.1327239,16.2" id="steam-3" stroke="#FFFFFF" stroke-width="2"></path>
+            <path d="M16.1431677,0 C9.14316767,7.2 22.1431677,8.8 15.1431677,16" id="steam-2" stroke="#FFFFFF" stroke-width="2"></path>
+            <path d="M10.1327239,5 C5.98955627,8.2 14.9895563,11.4 9.13272395,16.2" id="steam-1" stroke="#FFFFFF" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

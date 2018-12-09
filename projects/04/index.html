@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Righteous" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Tasty Pizza</title>
+  </head>
+  <body>
+    <h1 class="text-uppercase"><span class="title-accent">Tasty</span><br>Pizza</h1>
+    <div class="container">
+      <form id="order" class="well">
+        <div class="row">
+<!-- ORDER FORM INPUTS -->
+          <div class="col-xs-8">
+            <div id="order-input" class="row">
+              <div class="col-xs-6">
+                <h2>Size</h2>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza-size" value="Small"><strong>&dollar;12</strong> | Small - 12"
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza-size" value="Medium" checked><strong>&dollar;18</strong> | Medium - 16"
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="pizza-size" value="Large"><strong>&dollar;22</strong> | Large - 20"
+                    </label>
+                  </div>
+                </div>
+                <h2>Toppings</h2>
+                <p><strong>Price includes 2 toppings.</strong></p>
+                <p>Extras &dollar;1.50 each.</p>
+                <div class="form-group">
+                  <input type="checkbox" name="toppings" value="Artichoke">Artichoke<br>
+                  <input type="checkbox" name="toppings" value="Bacon">Bacon<br>
+                  <input type="checkbox" name="toppings" value="Chicken">Chicken<br>
+                  <input type="checkbox" name="toppings" value="Feta Cheese">Feta Cheese<br>
+                  <input type="checkbox" name="toppings" value="Jalapenos">Jalapenos<br>
+                  <input type="checkbox" name="toppings" value="Mushrooms">Mushrooms<br>
+                  <input type="checkbox" name="toppings" value="Olives">Olives<br>
+                  <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni<br>
+                  <input type="checkbox" name="toppings" value="Tomatoes">Tomatoes<br>
+                </div>
+                <div class="btn-group text-center">
+                  <button class="btn btn-warning" type="submit">Add</button>
+                  <button id="checkout" class="btn btn-success" type="button">Checkout</button>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <h2>Sauce</h2>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="sauce" value="Marinara" checked>Marinara
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="sauce" value="Pesto">Pesto
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="sauce" value="No Sauce">No Sauce
+                    </label>
+                  </div>
+                </div>
+                <h2>Base Cheese</h2>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="cheese" value="Mozarella" checked>Mozarella
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="cheese" value="3-Cheese">Three Cheese Blend
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="cheese" value="No Cheese">No Cheese
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="confirm-order" class="row display-none">
+              <div class="col-xs-6">
+                <h2>Your Order</h2>
+                <div class="bin">
+                </div>
+                <div class="btn-group">
+                  <button id="confirm" class="btn btn-success" type="button">Confirm</button>
+                  <button id="back" class="btn btn-danger" type="button">Back</button>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <h2>Service Type</h2>
+                <form id="service-type">
+                  <div class="form-group">
+                    <div class="radio">
+                      <label>
+                        <input id="pick-up" type="radio" name="delivery" value="Pick-Up" checked>Pick-Up
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="radio">
+                      <label>
+                        <input id="delivery" type="radio" name="delivery" value="Delivery">Delivery
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group address display-none">
+                    <label>Street</label>
+                    <input id="street" class="form-control" type="text">
+                  </div>
+                  <div class="form-group address display-none">
+                    <label>City</label>
+                    <input id="city" class="form-control" type="text">
+                  </div>
+                  <div class="form-group address display-none">
+                    <label>Zip</label>
+                    <input id="zip" class="form-control" type="text">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+<!-- ORDER DETAILS -->
+          <div id="order-details" class="col-xs-4 text-right">
+            <h2>Order Total</h2>
+            <h3 id="order-total" class="upsize text-warning">&dollar;<span>0.00</span></h3>
+            <h2>Pizza Count</h2>
+            <img id="floating-pizza" src="img/pizza.svg" alt="pizza">
+            <h3 id="pizza-count" class="upsize">0</h3>
+          </div>
+        </div>
+      </form>
+<!-- ORDER CART -->
+      <div id="order-cart" class="text-center">
+      </div>
+<!-- THANK YOU -->
+      <div id="thank-you" class="well text-center display-none">
+        <h2>Thank You!</h2>
+        <div class="bin">
+        </div>
+        <button id="reset" class="btn btn-success" type="button">Order Again</button>
+      </div>
+    </div>
+  </body>
+</html>

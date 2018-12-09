@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-icon/tribar-color-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="menu-icon/tribar-color-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="37" height="37"></rect>
+        <rect id="bar-bot" fill="#FE0194" x="1" y="26" width="35" height="3"></rect>
+        <rect id="bar-mid" fill="#FE0194" x="1" y="17" width="35" height="3"></rect>
+        <rect id="bar-top" fill="#FE0194" x="1" y="8" width="35" height="3"></rect>
+    </g>
+</svg>

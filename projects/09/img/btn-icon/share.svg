@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/share</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#14CFDF" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <path d="M22,39 L22,47 L14,33 L22,19 L22,34 L42,34 L42,39 L22,39 Z M44,27 L44,19 L52,33 L44,47 L44,32 L24,32 L24,27 L44,27 Z" id="arrows" fill="#FFFFFF"></path>
+    </g>
+</svg>

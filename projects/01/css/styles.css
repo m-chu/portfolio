@@ -1,0 +1,207 @@
+#profile-pic {
+  display: block;
+  float: right;
+  width: 50%;
+  max-width: 800px;
+  margin: 0px 75px 35px 25px;
+  border-radius: 100%;
+}
+
+/* GENERAL STYLES */
+body {
+  background: #fbfbfb;
+  min-width: 600px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-family: 'Hind', sans-serif;
+}
+
+ol, ul {
+  margin-bottom: 25px;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+a {
+  color: #107cbd;
+}
+
+.header-break {
+  display: block;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.inner-row {
+  margin-bottom: 0;
+}
+
+/* SECTION STYLES */
+.section-title {
+  margin: 0px auto 25px;
+  text-align: center;
+}
+
+.section1 {
+  background:
+  linear-gradient(45deg, #1b5171 23%, transparent 0%), linear-gradient(225deg, #809ea8 35%, transparent 0%), linear-gradient(45deg, #132c3b 30%, transparent 64%, #fff 10%);
+  background-size: 100% 100%;
+  background-color: #000;
+}
+
+.jumbotron {
+  overflow: auto;
+  min-height: 250px;
+  margin: 0px;
+  padding-bottom: 10px;
+  background-color: #0000;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  margin: 0 20px;
+  font-size: 10em;
+  text-align: left;
+}
+
+.jumbotron p {
+  float: right;
+  color: #fff;
+  font-size: 1.3em;
+  margin: 20px;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.section2 h2 {
+  color: white;
+  background-color: #053b5d;
+  border-radius: 3px;
+}
+
+.section2 img {
+  float: right;
+  width: 24px;
+  margin: -54px 4px;
+}
+
+.section2 .panel-heading {
+  background-color: #fff;
+}
+
+.section2 .panel-heading h2 {
+  color: #004f5c;
+  background-color: #fff;
+}
+
+.panel-body a:hover {
+  color: #2aafff;
+}
+
+.experience {
+  margin-bottom: 50px;
+}
+
+.experience h2 {
+  color: #fff;
+  background-color: #000;
+}
+
+.education {
+  margin-bottom: 40px;
+}
+
+.education a:hover {
+  color: #2aafff;
+}
+
+.education h2 {
+  color: #fff;
+  background-color: #3b4a53;
+}
+
+.education ul {
+  margin-left: -20px;
+}
+
+.education li {
+  list-style: none;
+  padding-left: 70px;
+}
+
+.epicodus-logo {
+  background: url('../img/logo-epi.png') no-repeat 0 0;
+}
+
+.wcc-logo {
+  background: url('../img/logo-wcc.png') no-repeat 0 0;
+}
+
+.um-logo {
+  background: url('../img/logo-um.png') no-repeat 0 0;
+}
+
+.hobbies h2 {
+  color: #3b4a53;
+  background-color: #fff;
+  border: 1px solid #3b4a53;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .jumbotron h1 {
+    font-size: 7em;
+  }
+
+  #profile-pic {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #profile-pic {
+    width: 75%;
+    margin: 0px auto 25px;
+    float: none;
+  }
+
+  .header-break {
+    display: inline;
+  }
+
+  .jumbotron {
+    text-align: center;
+  }
+
+  .jumbotron h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .section2 h2.section-title {
+    text-align: left;
+    padding-left: 15px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .section3 h3 {
+    font-size: .8em;
+  }
+
+  .section3 p strong {
+    font-size: .7em;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+  }
+}

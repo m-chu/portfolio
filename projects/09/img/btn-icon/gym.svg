@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/gym</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/gym" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#FFC400" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <g id="barbell" transform="translate(13.000000, 20.000000)" fill="#FFFFFF">
+            <rect id="rectangle" x="12" y="11" width="16" height="4"></rect>
+            <rect id="rectangle" x="29" y="0" width="3" height="26"></rect>
+            <rect id="rectangle" x="8" y="0" width="3" height="26"></rect>
+            <rect id="rectangle" x="4" y="4" width="3" height="19"></rect>
+            <rect id="rectangle" x="33" y="3" width="3" height="19.5"></rect>
+            <rect id="rectangle" x="0" y="11" width="3" height="4"></rect>
+            <rect id="rectangle" x="37" y="11" width="3" height="4"></rect>
+        </g>
+    </g>
+</svg>

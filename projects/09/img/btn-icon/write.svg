@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/write</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/write" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#FF0094" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <g id="script" transform="translate(22.000000, 14.000000)">
+            <rect id="paper" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="26" height="37" rx="2"></rect>
+            <path d="M5,21 L14,21 L14,23 L5,23 L5,21 Z M5,16 L23,16 L23,18 L5,18 L5,16 Z M5,11 L23,11 L23,13 L5,13 L5,11 Z M5,6 L23,6 L23,8 L5,8 L5,6 Z" id="lines" fill="#FFFFFF"></path>
+        </g>
+        <g id="pen" transform="translate(15.000000, 14.000000)">
+            <path d="M2,36.9384472 L3.3596118,31.5 L0.640388203,31.5 L2,36.9384472 Z" id="pen-point" stroke="#FFFFFF"></path>
+            <rect id="pen-mid" fill="#FFFFFF" x="0" y="2" width="4" height="29"></rect>
+            <rect id="pen-top" fill="#FFFFFF" x="0" y="0" width="4" height="4" rx="2"></rect>
+        </g>
+    </g>
+</svg>

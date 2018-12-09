@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:700|Montserrat:300" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>EPI Solo Project 3</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <h1 class="breathe">Beep Boop <br>Machine</h1>
+      </header>
+      <form class="well">
+        <div id="inputs" class="row">
+          <div class="form-group col-xs-4">
+            <label for="input-number">ID Number:</label>
+            <div class="input-shell">
+              <input id="input-number" class="form-control blink" type="text" maxlength="4" placeholder="_" required>
+            </div>
+          </div>
+          <div class="form-group col-xs-8">
+            <label for="input-name">Login Name:</label>
+            <div class="input-shell">
+              <input id="input-name" class="form-control pulse" type="text" maxlength="20" placeholder="Current > Dave">
+            </div>
+          </div>
+          <div id="controls" class="col-xs-4 btn-group">
+            <button id="submit" type="submit" class="btn">START</button>
+            <button id="reverse" type="button" class="btn post-ctrl toggle display-none">RWD</button>
+            <button id="forward" type="button" class="btn post-ctrl toggle display-none">FWD</button>
+            <button id="purge" type="button" class="btn post-ctrl pulse display-none">PURGE</button>
+          </div>
+          <div id="error-message" class="col-xs-8 display-none">
+          </div>
+        </div>
+      </form>
+      <div id="result" class="display-none">
+      </div>
+      <div id="shield" class="display-none">
+      </div>
+    </div>
+  </body>
+</html>

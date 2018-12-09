@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/sign-in</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/sign-in" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#FF0094" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <path d="M36,28 L36,18 L52,33 L36,48 L36,38 L17,38 C16.4477153,38 16,37.5522847 16,37 L16,29 C16,28.4477153 16.4477153,28 17,28 L36,28 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

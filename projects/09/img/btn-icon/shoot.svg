@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-icon/shoot</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="btn-icon/shoot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-area" fill="#FF0094" x="3" y="3" width="60" height="60" rx="30"></rect>
+        <path d="M43,36.7222222 L43,38 C43,38.5522847 42.5522847,39 42,39 L21,39 C20.4477153,39 20,38.5522847 20,38 L20,31 C20,30.4477153 20.4477153,30 21,30 L42,30 C42.5522847,30 43,30.4477153 43,31 L43,34.2777778 L50,30 L50,41 L43,36.7222222 Z M21.2727273,53 L19,53 L26.7272727,40 L31,40 L21.2727273,53 Z M43.7272727,53 L34,40 L38.2727273,40 L46,53 L43.7272727,53 Z M40,29 C35.581722,29 32,25.418278 32,21 C32,16.581722 35.581722,13 40,13 C44.418278,13 48,16.581722 48,21 C48,25.418278 44.418278,29 40,29 Z M24,29 C19.581722,29 16,25.418278 16,21 C16,16.581722 19.581722,13 24,13 C28.418278,13 32,16.581722 32,21 C32,25.418278 28.418278,29 24,29 Z" id="camera" fill="#FFFFFF"></path>
+    </g>
+</svg>

@@ -1,0 +1,291 @@
+/* GENERAL */
+body {
+  background-color: black;
+  color: #00ffbc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  min-width: 800px;
+}
+
+header {
+  border-bottom: 1px dashed #ff1754;
+  border-top: 1px dashed #ff1754;
+  margin-top: 25px;
+  padding-top: 5px;
+}
+
+h1 {
+  color: #ff1754;
+  font-family: 'Monoton', sans-serif;
+  font-size: 6em;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  overflow: auto;
+}
+
+label {
+  font-size: 0.8em;
+  letter-spacing: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.display-none {
+  display: none;
+}
+
+#controls {
+  padding: 0px 5px 0px 10px;
+}
+
+#error-message {
+  color: #ffed00;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6em;
+  height: 35px;
+  padding: 0 20px;
+  text-align: center;
+  word-wrap: normal;
+}
+
+.access {
+  color: #00ffbc;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.error {
+  color: red;
+}
+
+#shield {
+  background-color: #007dd226;
+  border-radius: 10px;
+  height: 210px;
+}
+
+/* BUTTONS */
+#controls button {
+  border-radius: 3px;
+  height: 35px;
+  margin: 5px;
+}
+
+#submit {
+  background-color: #ff1754;
+  color: #fff;
+}
+
+#submit:hover {
+  background-color: red;
+}
+
+#reverse, #forward {
+  background-color: #0000;
+  border: 1px solid #00ffbc;
+  color: #00ffbc;
+  width: 60px;
+}
+
+#reverse:hover, #forward:hover {
+  color: #fff;
+  text-shadow: 3px 3px 2px #00a97c;
+}
+
+#purge {
+  background-color: #0000;
+  border: 1px solid #ff1754;
+  color: #ff1754;
+  width: 75px;
+}
+
+/* INPUTS */
+.input-shell {
+  border: 1px dotted #00ffbc;
+  border-radius: 3px;
+}
+
+input:focus {
+  color: #ff1754;
+}
+
+.form-control::placeholder {
+  color: #d40038;
+}
+
+#inputs .form-control:focus::placeholder {
+  color: #000;
+}
+
+.blocks {
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.beep {
+  background-color: red;
+  border: 1px solid red;
+  color: #fffc7f;
+  width: 75px;
+}
+
+.boop {
+  background-color: #093824;
+  border: 1px solid #00ffbc;
+  width: 75px;
+}
+
+.sorry {
+  border: 1px dashed #ff7600;
+  color: #ffd600;
+  font-size: 0.7em;
+  line-height: 1em;
+}
+
+.digit {
+  border: 1px dotted #ff1754;
+  color: #ff1754;
+  font-size: 2.4em;
+  line-height: 1em;
+  padding: 0px 10px;
+}
+
+/* ANIMATIONS */
+#inputs .form-control:focus {
+  animation: none;
+}
+
+#purge:hover {
+  animation: pulse 0.3s infinite;
+  color: #fcff71;
+}
+
+@keyframes h1-breathe {
+  50% {letter-spacing: 3px; width: 85%;}
+}
+
+@keyframes breathe {
+  50% {letter-spacing: 3px; width: 100px;}
+}
+
+@keyframes blink {
+  40% {opacity: 0;}
+  80% {opacity: 1;}
+}
+
+@keyframes pulse {
+  50% {opacity: 0.5;}
+}
+
+@keyframes strobe {
+  50% {color: red; border-color: red;}
+}
+
+@keyframes strobe2 {
+  50% {color: magenta;}
+}
+
+@keyframes strobe3 {
+  50% {border-color: red;}
+}
+
+@keyframes strobe4 {
+  50% {color:red; border-color: magenta;}
+}
+
+@keyframes grow {
+  50% {font-size: 1.1em; line-height: 1.1em; padding-top: 0px;}
+}
+
+h1.breathe {
+  animation: h1-breathe 3s infinite;
+}
+
+input.blink {
+  animation: blink 0.9s infinite;
+}
+
+input.pulse, button.pulse {
+  animation: pulse 1s infinite;
+}
+
+.blink1 {
+  animation: blink 0.5s infinite, breathe 3s infinite;
+}
+
+.blink2 {
+  animation: blink 1s infinite, breathe 2s infinite;
+}
+
+.blink3 {
+  animation: blink 1.5s infinite, breathe 1s infinite;
+}
+
+.blink4 {
+  animation: blink 2s infinite, breathe .5s infinite;
+}
+
+.pulse1 {
+  animation: pulse 0.5s infinite, breathe 4s infinite;
+}
+
+.pulse2 {
+  animation: pulse 1s infinite, breathe 3s infinite;
+}
+
+.pulse3 {
+  animation: pulse 1.5s infinite, breathe 2s infinite;
+}
+
+.pulse4 {
+  animation: pulse 2s infinite, breathe 1s infinite;
+}
+
+.strobe1 {
+  animation: strobe 0.5s infinite, grow 1s infinite;
+}
+
+.strobe2 {
+  animation: strobe2 0.5s infinite;
+}
+
+.strobe3 {
+  animation: strobe3 0.1s infinite;
+}
+
+.strobe4 {
+  animation: strobe4 1.5s infinite;
+}
+
+/* BOOTSTRAP CUSTOMIZATIONS */
+.form-control {
+  background-color: #0000;
+  border: none;
+  color: #00ffbc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  height: 60px;
+  letter-spacing: 10px;
+}
+
+.well {
+  background-color: #0000;
+  border: none;
+  margin: 0;
+  padding: 15px 20px;
+}

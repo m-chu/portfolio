@@ -1,0 +1,147 @@
+/* GENERAL STYLES */
+body {
+  font-size: 1.4em;
+  min-width: 550px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto 25px;
+}
+
+label {
+  margin: 10px 0 0;
+}
+
+.downsize {
+  font-size: 0.9em;
+}
+
+.upsize {
+  font-size: 1.1em;
+}
+
+.no-display {
+  display: none;
+}
+
+/* BOOTSTRAP CUSTOMIZATIONS */
+.btn {
+  background-color: #038b8c;
+  color: #fff;
+  display: block;
+  margin: 15px auto 0px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.panel {
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 25px 10px 20px;
+}
+
+.row {
+  margin: 0 0 20px;
+}
+
+.well {
+  background-color: #e9f7f4;
+  border: 1px solid #bcd4d1;
+  overflow: auto;
+}
+
+.jumbotron p {
+  font-size: 0.9em;
+  margin: 35px 0 -35px 93px;
+}
+
+.jumbotron h1 {
+  color: #05b3b4;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.5em;
+  margin: 0 auto;
+}
+
+.jumbotron img {
+  margin: 0 auto 10px;
+}
+
+.container .jumbotron {
+  background-color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Survey Section */
+div.radio {
+  margin: 10px 18px;
+}
+
+/* Result Section*/
+.recommend {
+  background-color: orange;
+  border-radius: 20px;
+  color: white;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+}
+
+.result {
+  background-color: #fff;
+  border: 1px solid #3cab9c;
+}
+
+.result h3 {
+  margin: 10px auto 30px;
+}
+
+.result h3 .downsize {
+  font-size: 0.6em;
+}
+
+/* Thank You Section*/
+#all-tracks {
+  margin: 15px auto;
+  text-transform: uppercase;
+}
+
+#thankyou {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0;
+  text-align: center;
+}
+
+#thankyou h2 {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+#reset {
+  background-color: #fff;
+  border: 1px solid #038b8c;
+  border-radius: 3px;
+  color: #038b8c;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin: 15px auto;
+  padding: 5px 0px 3px;
+  text-transform: uppercase;
+  width: 125px;
+}
